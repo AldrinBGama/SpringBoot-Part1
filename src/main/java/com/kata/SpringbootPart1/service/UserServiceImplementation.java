@@ -26,7 +26,7 @@ public class UserServiceImplementation implements UserService {
     }
 
     @Override
-    public Collection<User> getUser() {
-        return fakeRepo.values();
+    public void getUser(long id) {
+        fakeRepo.values();
     }
 }

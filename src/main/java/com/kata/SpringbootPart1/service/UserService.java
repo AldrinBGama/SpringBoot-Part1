@@ -7,5 +7,5 @@ import java.util.Collection;
 public interface UserService {
     void addUser(User user);
     void removeUser(long id);
-    public abstract Collection<User> getUser();
+    void getUser(long id);
 }
